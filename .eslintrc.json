@@ -36,8 +36,8 @@
         "ts": "never",
         "tsx": "never",
         "mjs": "never"
-      }]
-
+      }],
+      "camelcase":"off"
     },
     "settings": {
       "import/resolver": {
