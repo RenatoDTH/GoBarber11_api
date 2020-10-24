@@ -2,12 +2,13 @@
 Api da nova versão do GoBarber com typescript.
 Backend da aplicação GoBarber, apresentado pelos ensinamentos da [Rocketseat](https://rocketseat.com.br/). 
 
-##Sobre o GoBarber
+## Sobre o GoBarber
 
 GoBarber é um serviço de cadastramento de prestadores, o qual você pode se cadastrar como um e visualizar os agendamentos para o seu serviço. Por outro lado, o consumidor poderá selecionar e agendar com os prestadores de serviço, podendo se usufruir de uma aplicação completa restful, utlizando tanto a versão web, como a mobile.
 
 
-##Dependências
+## Dependências
+
 Para o funcionamento da aplicação é necessário rodar um:
 
 ```
@@ -47,7 +48,7 @@ docker stop <nome>
 No caso do teste do email, foi usado o [ethereal](https://ethereal.email/) e para poder visualizar ele, é só seguir o link enviado no console.log.
 No caso de produção, já está configurado o AWS tanto para imagens como para email, necessitando somente das credenciais.
 
-##Migrations
+## Migrations
 
 Neste projeto foi utlizado o [TypeORM](https://typeorm.io/#/using-ormconfig) e é necessário fazer um arquivo de configuração ormconfig.json para conexão com os bancos Postgres e MongoDB. Caso queira alterar o banco para algo de sua preferência, será importante alterar este arquivo.
 
@@ -58,7 +59,8 @@ yarn typeorm migration:run
 ```
 Para que as migrations criem as tabelas no banco de dados.
 
-##Rodando a aplicação 
+## Rodando a aplicação 
+
 Para rodar a aplicação é necessário usar:
 ```
 yarn dev:server
