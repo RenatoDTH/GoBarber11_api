@@ -1,6 +1,5 @@
 # GoBarber11_api
-Api da nova versão do GoBarber com typescript.
-Backend da aplicação GoBarber, apresentado pelos ensinamentos da [Rocketseat](https://rocketseat.com.br/). 
+Api da nova versão do GoBarber com typescript apresentado pelos ensinamentos da [Rocketseat](https://rocketseat.com.br/). 
 
 ## Sobre o GoBarber
 
