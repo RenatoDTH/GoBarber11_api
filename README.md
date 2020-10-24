@@ -50,6 +50,7 @@ No caso de produção, já está configurado o AWS tanto para imagens como para 
 ##Migrations
 
 Neste projeto foi utlizado o [TypeORM](https://typeorm.io/#/using-ormconfig) e é necessário fazer um arquivo de configuração ormconfig.json para conexão com os bancos Postgres e MongoDB. Caso queira alterar o banco para algo de sua preferência, será importante alterar este arquivo.
+
 Sobre as migrations em si, é necessário rodar:
 
 ```
