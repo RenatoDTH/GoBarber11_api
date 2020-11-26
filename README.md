@@ -1,5 +1,9 @@
+<h1 align="center">
+    <img alt="GoBarberLogo" title="GoBarber" src=".github/goBarberLogo.PNG" />
+</h1>
+
 # GoBarber11_api
-Api da nova versão do GoBarber com typescript apresentado pelos ensinamentos da [Rocketseat](https://rocketseat.com.br/). 
+Api da nova versão do GoBarber com typescript apresentado pelos ensinamentos da [Rocketseat](https://rocketseat.com.br/).
 
 ## Sobre o GoBarber
 
@@ -12,7 +16,7 @@ Para o funcionamento da aplicação é necessário rodar um:
 
 ```
 yarn install
-``` 
+```
 
 Para baixar as dependências do projeto.
 
@@ -30,7 +34,7 @@ Onde os nomes entre <> são substituíveis.
 Para visualizar se os containers estão funcionando de fato, é só usar:
 ```
 docker ps
-ou 
+ou
 docker ps -a
 ```
 
@@ -58,13 +62,13 @@ yarn typeorm migration:run
 ```
 Para que as migrations criem as tabelas no banco de dados.
 
-## Rodando a aplicação 
+## Rodando a aplicação
 
 Para rodar a aplicação é necessário usar:
 ```
 yarn dev:server
 ```
-Além de rodar os containers do docker. 
+Além de rodar os containers do docker.
 
 Para o melhor funcionamento e visualização é recomendado baixar o [Frontend](https://github.com/RenatoDTH/GoBarber11_web) e [Mobile](https://github.com/RenatoDTH/GoBarber11_mobile) para tirar melhor proveito.
 Além disso um arquivo do [Insomnia](https://insomnia.rest/) estará presente, caso só queira interagir com o backend.
